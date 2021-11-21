@@ -1,9 +1,10 @@
-/* Create a proto message for:
+/* 
+Create a proto message for:
 Latitude Longitude (example: -33.865382, 151.192861). With fields:
 Latitude (number)
-Longitude (number)
- Day (number) */
- 
+Longitude (number) 
+*/
+
  syntax = "proto3";
 
  message Coordinates {

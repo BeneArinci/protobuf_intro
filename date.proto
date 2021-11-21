@@ -1,8 +1,10 @@
-/* Create a proto message for:
- Date (example: 2018/03/15). With fields:
- Year (number)
- Month (number)
- Day (number) */
+/* 
+Create a proto message for:
+Date (example: 2018/03/15). With fields:
+Year (number)
+Month (number)
+Day (number) 
+*/
 
 syntax = "proto3";
 
