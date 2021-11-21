@@ -1,5 +1,9 @@
 syntax = "proto3";
 
+import "date.proto";
+
+package person;
+
 /* Start back from were I left
 * in basics1.proto
 */
@@ -21,15 +25,9 @@ message Person {
     }
     EyeColour eye_colour = 8;
     
-    Date birthday = 9;
+    my.date.Date birthday = 9;
 
     repeated Address addresses = 10;
-}
-
-message Date {
-    int32 year = 1;
-    int32 month = 2;
-    int32 day = 3;
 }
 
 message Address {

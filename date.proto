@@ -8,6 +8,8 @@ Day (number)
 
 syntax = "proto3";
 
+package my.date;
+
 message Date {
     int32 year = 1;
     int32 month = 2;
