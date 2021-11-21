@@ -1,10 +1,18 @@
 syntax = "proto3";
 
+/* Person is used to identify users
+* across our system
+*/
 message Person {
+    // age at the day of sign up
     int32 age = 1;
     string first_name = 2;
     string last_name = 3;
     bytes small_image = 4;
     bool is_profile_verified = 5;
+    // height in cms
     int32 height = 6;
+
+    // the keyword "repeated" is used to define a list of elements
+    repeated string phone_numbers = 7;
 }
