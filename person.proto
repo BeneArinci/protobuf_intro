@@ -15,4 +15,13 @@ message Person {
 
     // the keyword "repeated" is used to define a list of elements
     repeated string phone_numbers = 7;
+
+    enum EyeColour {
+        // enums tags start from 0 that is also the default value for it
+        UNKNOWN_EYE_COLOUR = 0; 
+        BLUE_EYES = 1;
+        GREEN_EYES = 2;
+        BROWN_EYES = 3;
+    }
+    EyeColour eye_colour = 8;
 }
