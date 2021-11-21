@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "date.proto";
+import "exercises1/date.proto";
 
 package person;
 
